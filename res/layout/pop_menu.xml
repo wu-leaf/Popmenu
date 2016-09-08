@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="4" >
+	<!-- 效果有点丑，众口难调 -->
+    
+    <Button
+        android:id="@+id/menu_btn1"
+        android:layout_width="0dp"
+        android:background="@drawable/menu_bg_selector"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/btn_bg"
+        android:drawableTop="@drawable/my1"
+        android:text="btn1" />
+
+    <Button
+        android:id="@+id/menu_btn2"
+        android:layout_width="0dp"
+        android:background="@drawable/menu_bg_selector"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/btn_bg"
+        android:drawableTop="@drawable/my2"
+        android:text="btn2" />
+
+    <Button
+        android:id="@+id/menu_btn3"
+        android:layout_width="0dp"
+        android:background="@drawable/menu_bg_selector"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/btn_bg"
+        android:drawableTop="@drawable/my3"
+        android:text="btn3" />
+
+    <Button
+        android:id="@+id/menu_btn4"
+        android:layout_width="0dp"
+        android:background="@drawable/menu_bg_selector"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/btn_bg"
+        android:drawableTop="@drawable/my4"
+        android:text="btn4" />
+
+</LinearLayout>

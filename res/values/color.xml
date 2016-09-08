@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="btn_bg">#777777</color>
+    <color name="white">#FFFFFF</color>
+    <color name="devider">#CCCCCC</color>
+</resources>
